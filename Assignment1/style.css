@@ -7,6 +7,7 @@ div.header
  {
    /* Typography*/
   background:rgba(215, 147, 0, 0.67); /* Header Bckg Color */
+  font-family: 'Rammetto One', cursive; /* Sets font of text */
   color: white; /* Text color */
 
   display: flex;/*enables elements within page to resize as page-size changes */
