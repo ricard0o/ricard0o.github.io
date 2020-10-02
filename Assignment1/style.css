@@ -9,9 +9,11 @@ div.header
   color: white; /* Text color */
   /*enables elements within page to resize as page-size changes */
   display: flex;
-  justify-content: center; /* Elements within header are centered */
+  justify-content: space-between; /* Elements within header are centered */
+
   flex-direction: row; /* Elements stacks up horizontally */
   flex-wrap: wrap; /* Elements wrap as image resizes */
+  justify-content: spac;
 
 
 
