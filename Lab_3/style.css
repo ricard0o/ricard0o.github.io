@@ -5,11 +5,14 @@ body {background-color: rgba(0, 86, 111, 1);}
 
 .header
  {
+  background:rgba(215, 147, 0, 0.67); /* Header Bckg Color */
+  color: white; /* Text color */
+
   margin-bottom: 15px;
   display: flex;
   flex-flow: row wrap;
-  color: purple;
-  background:#4AA85C;
+  color: white;
+  
   padding: 10px;
   justify-content: space-between;
   align-items: center;
