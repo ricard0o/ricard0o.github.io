@@ -1,22 +1,15 @@
 /* stylesheet for assignment 1 */
+
 /*Set the backgroud color*/
 body {background-color: rgba(0, 86, 111, 1);}
 
-.header
+div.header
  {
   background:rgba(215, 147, 0, 0.67); /* Header Bckg Color */
   color: white; /* Text color */
 
-  margin-bottom: 15px;
-  display: flex;
-  flex-flow: row wrap;
-  color: white;
-  
-  padding: 10px;
-  justify-content: space-between;
-  align-items: center;
-  font-family: 'Lemonada', cursive;
-  font-weight: 700;
+  margin-bottom: 15px; /* header has a 25px bottom margin */
+
 
 }
 
