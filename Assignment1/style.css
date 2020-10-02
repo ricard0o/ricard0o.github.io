@@ -19,3 +19,7 @@ body {background-color: rgba(0, 86, 111, 1);}
   font-weight: 700;
 
 }
+
+.header img{
+  width: 90px;
+}
