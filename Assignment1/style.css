@@ -19,12 +19,13 @@ div.header
   flex-direction: row; /* stacks elements horizontally */
   align-items: center; /*aligns the flex items in the middle of the container */
   flex-flow: row wrap; /* shorthand property for setting both the flex-direction and flex-wrap properties */
-
- 
-  
-
 }
 
-.header img{
+div.header img
+{
   width: 140px;
+}
+div.image-caption
+{
+  width: 180px;
 }
