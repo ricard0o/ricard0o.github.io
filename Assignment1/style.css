@@ -9,6 +9,7 @@ div.header
   background:rgba(215, 147, 0, 0.67); /* Header Bckg Color */
   font-family: 'Rammetto One', cursive; /* Sets font of text */
   color: white; /* Text color */
+  padding: 10px;
 
   display: flex;/*enables elements within page to resize as page-size changes */
   justify-content: space-between; /* Places name to the left, logo to the right*/
@@ -18,7 +19,7 @@ div.header
   align-items: center; /*aligns the flex items in the middle of the container */
   flex-flow: row wrap; /* shorthand property for setting both the flex-direction and flex-wrap properties */
 
-  padding: 10px;
+ 
   
 
 }
