@@ -13,7 +13,7 @@ div.header
 
   flex-direction: row; /* Elements stacks up horizontally */
   flex-wrap: wrap; /* Elements wrap as image resizes */
-  justify-content: spac;
+  flex-flow: row wrap;
 
 
 
