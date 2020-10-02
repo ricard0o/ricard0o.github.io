@@ -7,6 +7,11 @@ div.header
  {
   background:rgba(215, 147, 0, 0.67); /* Header Bckg Color */
   color: white; /* Text color */
+  /*enables elements within page to resize as page-size changes */
+  display: flex;
+  
+
+
 
   margin-bottom: 15px; /* header has a 25px bottom margin */
 
