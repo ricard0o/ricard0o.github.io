@@ -11,6 +11,7 @@ div.header
   color: white; /* Text color */
   padding: 10px;
   font-size: 20 px;
+  font-weight: bold;
 
   display: flex;/*enables elements within page to resize as page-size changes */
   justify-content: space-between; /* Places name to the left, logo to the right*/
