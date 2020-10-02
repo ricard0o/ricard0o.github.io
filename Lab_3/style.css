@@ -1,5 +1,8 @@
 /* || General setup */
 
+/* stylesheet for assignment 1 */
+/* || General setup */
+
 html, body {
   margin: 0;
   padding: 0;
@@ -104,35 +107,3 @@ nav a, nav span {
   text-transform: uppercase;
   text-decoration: none;
   color: black;
-
-}
-
-/* || main layout */
-
-main {
-  display: flex;
-}
-
-article, section {
-  flex: 4;
-}
-
-aside {
-  flex: 1;
-  margin-left: 10px;
-  padding: 1%;
-}
-
-aside a {
-  display: block;
-  float: left;
-  width: 50%;
-}
-
-aside img {
-  max-width: 100%;
-}
-
-footer {
-  margin-top: 10px;
-}
