@@ -5,22 +5,20 @@ body {background-color: rgba(0, 86, 111, 1);}
 
 div.header
  {
+   /* Typography*/
   background:rgba(215, 147, 0, 0.67); /* Header Bckg Color */
   color: white; /* Text color */
-  /*enables elements within page to resize as page-size changes */
-  display: flex;
-  justify-content: space-between; /* Elements within header are centered */
 
-  flex-direction: row; /* Elements stacks up horizontally */
-  flex-wrap: wrap; /* Elements wrap as image resizes */
-  flex-flow: row wrap;
-  align-items: center; /*aligns the flex items in the middle of the container */
-
-
-
-
+  display: flex;/*enables elements within page to resize as page-size changes */
+  justify-content: space-between; /* Places name to the left, logo to the right*/
+  flex-wrap: wrap; /* The wrap value specifies that the flex items will wrap if necessary */
   margin-bottom: 15px; /* header has a 25px bottom margin */
+  flex-direction: row; /* stacks elements horizontally */
+  align-items: center; /*aligns the flex items in the middle of the container */
+  flex-flow: row wrap; /* shorthand property for setting both the flex-direction and flex-wrap properties */
 
+  padding: 10px;
+  
 
 }
 
