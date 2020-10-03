@@ -38,7 +38,7 @@ body {background-color: rgba(0, 86, 111, 1);}
 
 .content_body
 {
-  width: 950px;
+  width: 960px;
   display: flex;
   flex-wrap: wrap;
   flex-flow: row wrap;
@@ -71,7 +71,7 @@ body {background-color: rgba(0, 86, 111, 1);}
 {
   display: flex;
   flex-flow: row wrap;
-  flex:0 1 auto;
+ 
   width: 200px;
   margin-right: 15px;
   margin-bottom: 15px;
