@@ -31,14 +31,31 @@ body {background-color: rgba(0, 86, 111, 1);}
   width: 160px;
 }
 
+
+
+
+
+
 .content_body
 {
   width: 950px;
   display: flex;
+  flex-wrap: wrap;
   flex-flow: row wrap;
-  align-items: flex-start;
   justify-content: space-between;
+ 
+  
 }
+
+
+
+
+
+
+
+
+
+
 
 .wrapper
 {
