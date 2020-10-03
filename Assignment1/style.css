@@ -70,6 +70,7 @@ body {background-color: rgba(0, 86, 111, 1);}
   border-radius: 4px;
   border: 10px solid blue;
   background: yellow;
+  color: white;
 }
 
 .caption
