@@ -51,6 +51,7 @@ body {background-color: rgba(0, 86, 111, 1);}
   color: whitesmoke;
 }
 
+
 .image_section
 {
   display: flex;
@@ -67,4 +68,14 @@ body {background-color: rgba(0, 86, 111, 1);}
   border-radius: 4px;
   border: 1px solid blue;
   background: white;
+}
+
+.caption
+{
+  border: 1px solid blue;
+  max-width: 200px;
+  padding: 30px;
+  background: white;
+  /* margin-bottom: 115px; */
+  color: #A85211;
 }
