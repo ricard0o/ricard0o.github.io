@@ -50,3 +50,13 @@ body {background-color: rgba(0, 86, 111, 1);}
 
   color: whitesmoke;
 }
+
+.image_section
+{
+  display: flex;
+  flex-flow: row wrap;
+  flex:0 1 auto;
+  width: 200px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
