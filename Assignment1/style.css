@@ -26,9 +26,9 @@ body {background-color: rgba(0, 86, 111, 1);}
 {
   width: 160px;
 }
-.profile img
+.profile 
 {
-  width: 180px;
+  width: 100px;
 }
 
 .content_body
