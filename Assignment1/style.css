@@ -3,7 +3,7 @@
 /*Set the backgroud color*/
 body {background-color: rgba(0, 86, 111, 1);}
 
-div.header
+.header
  {
    /* Typography*/
   background:rgba(215, 147, 0, 0.67); /* Header Bckg Color */
@@ -22,11 +22,11 @@ div.header
   flex-flow: row wrap; /* shorthand property for setting both the flex-direction and flex-wrap properties */
 }
 
-div.header img
+.header img
 {
   width: 140px;
 }
-div.profile img
+.profile img
 {
   width: 180px;
 }
