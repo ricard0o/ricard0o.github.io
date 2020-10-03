@@ -30,3 +30,8 @@ body {background-color: rgba(0, 86, 111, 1);}
 {
   width: 180px;
 }
+
+.content_body
+{
+  width: 950px;
+}
