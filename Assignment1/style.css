@@ -39,5 +39,9 @@ body {background-color: rgba(0, 86, 111, 1);}
 .wrapper
 {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
 }
