@@ -24,14 +24,20 @@ body {background-color: rgba(0, 86, 111, 1);}
 
 .header img
 {
-  width: 160px;
+  width: 140px;
 }
 .profile 
 {
-  width: 100px;
+  width: 160px;
 }
 
 .content_body
 {
   width: 950px;
+}
+
+.wrapper
+{
+  display: flex;
+
 }
