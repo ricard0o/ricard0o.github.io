@@ -34,6 +34,10 @@ body {background-color: rgba(0, 86, 111, 1);}
 .content_body
 {
   width: 950px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .wrapper
@@ -44,4 +48,5 @@ body {background-color: rgba(0, 86, 111, 1);}
   justify-content: center;
   align-items: center;
 
+  color: whitesmoke;
 }
