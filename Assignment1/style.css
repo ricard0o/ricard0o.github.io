@@ -26,11 +26,12 @@ body {background-color: rgba(0, 86, 111, 1);}
 .profile { width: 180px;}
 
 
+
 .wrapper{
   
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  
   align-items: center;
   flex-wrap: wrap;
   
