@@ -92,6 +92,9 @@ body {background-color: rgba(0, 140, 194, 0.44);}
     align-content: space-between;
     margin-bottom: 20px;  
 }
+  .profile{
+    max-width: 160px;
+  }
 
   .caption{
     align-self: center;
