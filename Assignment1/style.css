@@ -23,7 +23,9 @@ body {background-color: rgba(0, 140, 194, 0.44);}
   
 }
 
-.header img{ width: 130px;}
+.header img{ 
+  width: 130px;
+}
 .profile { 
   width: 160px;
   height: 200px;
@@ -31,16 +33,12 @@ body {background-color: rgba(0, 140, 194, 0.44);}
   border-radius: 4px;
   align-self: center;
 }
-
-
-
 .wrapper{
   display: flex;
   justify-content: space-around;
   margin: auto;
   color: whitesmoke;
 }
-
 .content{
   max-width: 960px; 
   display: flex;
@@ -48,11 +46,7 @@ body {background-color: rgba(0, 140, 194, 0.44);}
   flex-wrap: wrap; 
   flex-direction: row;
   justify-content: center; 
-  
-  
   flex-flow: row wrap;
-  
-
 }
 .image-section{
   display: flex;
@@ -60,15 +54,13 @@ body {background-color: rgba(0, 140, 194, 0.44);}
   flex-direction: column;
 }
 .experience_section{
-  width: 780px;
-  height: 500px;
+  width: 700px;
+  height: 600px;
   background: lightgoldenrodyellow;
   color: black;
   border: 3px solid black;
 }
-
-.caption
-{
+.caption{
   width: 160px;
   align-self: center;
   background: lightgoldenrodyellow;
@@ -77,26 +69,22 @@ body {background-color: rgba(0, 140, 194, 0.44);}
 }
 
 
-
 @media screen and (max-width: 1000px){
 
   .header{
     background: rgb(255, 204, 0);
   }
-
   .content{
-    justify-content: center;
-    
-}
+    justify-content: center; 
+  }
   .image-section{
     flex-grow:1;
     flex-shrink:0;
     flex-flow: row wrap;
     justify-content: space-evenly;
- 
     margin-bottom: 20px;  
     width: inherit;
-}
+  }
   .profile{
     width: inherit;
   }
@@ -104,8 +92,8 @@ body {background-color: rgba(0, 140, 194, 0.44);}
   .caption{
     align-self: center;
     
-}
+  }
   .experience_section{
     justify-content:center;
-}
+  }
 }
