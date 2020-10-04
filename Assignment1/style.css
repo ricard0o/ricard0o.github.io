@@ -98,7 +98,7 @@ body {background-color: rgba(0, 140, 194, 0.44);}
     width: inherit;
 }
   .profile{
-    max-width: 160px;
+    width: inherit;
   }
 
   .caption{
