@@ -25,7 +25,8 @@ body {background-color: rgba(0, 140, 194, 0.44);}
 
 .header img{ width: 130px;}
 .profile { 
-  max-width: 160px;
+  width: 160px;
+  height: 200;
   border: 1px solid black;
   border-radius: 4px;
 }
