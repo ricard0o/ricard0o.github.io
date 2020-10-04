@@ -29,6 +29,7 @@ body {background-color: rgba(0, 140, 194, 0.44);}
   height: 200px;
   border: 1px solid black;
   border-radius: 4px;
+  align-self: center;
 }
 
 
