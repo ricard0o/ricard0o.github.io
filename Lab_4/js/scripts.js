@@ -25,7 +25,8 @@ let length_of_name = document.createTextNode("My name has "+myFullName.length+" 
 paragraph1.appendChild(length_of_name);
  
 // 4 & 5 Into the second paragraph tag, return the 3rd character in your first name
-
+let third_char_of_name = document.createTextNode(myFullName.charAt(2).toUpperCase());
+paragraph2.appendChild(third_char_of_name);
 // 6 Add a new line to your second paragraph
 
 // 7 Return the final three characters of your last name to that new line
