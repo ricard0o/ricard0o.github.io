@@ -15,25 +15,25 @@ paragraph2.className = "content2";
 let newParagraphs = document.querySelector(".content");
 
 //insert the 2 paragraphs into div with class name "content"
-newParagraphs.appendChild(paragraph1);
-newParagraphs.appendChild(paragraph2);
+newParagraphs.append(paragraph1);
+newParagraphs.append(paragraph2);
 
 
 // 3 Into the first paragraph, insert the phrase "my name has " length of your name " characters"
 //      (e.g. my name has 10 characters).
 let length_of_name = document.createTextNode("My name has "+myFullName.length+" characters");
-paragraph1.appendChild(length_of_name);
+paragraph1.append(length_of_name);
  
 // 4 & 5 Into the second paragraph tag, return the 3rd character in your first name
 let third_char_of_name = document.createTextNode(myFullName.charAt(2).toUpperCase());
-paragraph2.appendChild(third_char_of_name);
+paragraph2.append(third_char_of_name);
 
 // 6 Add a new line to your second paragraph
 let new_line = document.createTextNode("\n");
-paragraph2.appendChild(new_line);
+paragraph2.append(new_line);
 
 // 7 Return the final three characters of your last name to that new line
-
+let fina_three_let = document.createTextNode(myFullName)
 // 8 Substring your first and last name into two separate variables
 
 // 9 Add the total length of your first and last names together
