@@ -29,7 +29,7 @@ let third_char_of_name = document.createTextNode(myFullName.charAt(2).toUpperCas
 paragraph2.appendChild(third_char_of_name);
 
 // 6 Add a new line to your second paragraph
-let new_line = document.createTextNode("\n\n hi");
+let new_line = document.createTextNode("\n");
 paragraph2.appendChild(new_line);
 
 // 7 Return the final three characters of your last name to that new line
