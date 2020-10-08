@@ -15,14 +15,13 @@ paragraph2.classname = "content2";
 let text1 = document.createTextNode("This is paragraph 1: Hello from the other side");
 let textt2 = document.createTextNode("This is Paragraph 2: the RIGHT paragraph");
 
+let newParagraphs = document.querySelector(".content");
+
 //add text node to paragraph elements
 Paragraph1.appendChild(text1);
 paragraph2.appendChild(textt2);
 
-//
-let newParagraphs = document.querySelector(".content");
-
- // add element and content 
+ // add element and content to .content
  newParagraphs.appendChild(Paragraph1);
  newParagraphs.appendChild(paragraph2);
 
