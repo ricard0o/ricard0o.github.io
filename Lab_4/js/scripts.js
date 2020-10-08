@@ -9,7 +9,7 @@ let paragraph2 = document.createElement("p2"); //create new element
 
 //assign distinct class names
 paragraph1.className = "content1";
-paragraph2.classname = "content2";
+paragraph2.className = "content2";
 
 //assign variable to class ".content"
 let newParagraphs = document.querySelector(".content");
@@ -27,7 +27,10 @@ paragraph1.appendChild(length_of_name);
 // 4 & 5 Into the second paragraph tag, return the 3rd character in your first name
 let third_char_of_name = document.createTextNode(myFullName.charAt(2).toUpperCase());
 paragraph2.appendChild(third_char_of_name);
+
 // 6 Add a new line to your second paragraph
+let new_line = document.createTextNode("\n\n hi");
+paragraph2.appendChild(new_line);
 
 // 7 Return the final three characters of your last name to that new line
 
