@@ -1,4 +1,4 @@
-let myFullName = "Bill Farmer"; // 10 characters in name...not including space
+let myFullName = "Ricardo Hernandez"; // 10 characters in name...not including space
 // 1 Change the content of the div with class "header" to "[Your name]'s Lab 4"
 
 // 2 Insert two paragraphs into the div with the class "content"
