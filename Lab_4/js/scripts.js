@@ -4,25 +4,26 @@ let myHeader = document.querySelector(".header");
 myHeader.innerHTML = myFullName + "'s Lab 4";
 // 2 Insert two paragraphs into the div with the class "content"
 //  Label each paragraph with a distinct class name
-let Paragraph1 = document.createElement("p1"); //create new element
-let paragraph2 = document.createElement("p2") //create new element
+var paragraph1 = document.createElement("p1"); //create new element
+var paragraph2 = document.createElement("p2"); //create new element
 
 //class names
-Paragraph1.className = "content1";
-paragraph2.classname = "content2";
+paragraph1.className = ".content2";
+paragraph2.classname = ".content1";
 
 //add some content
-let text1 = document.createTextNode("This is paragraph 1: Hello from the other side");
-let textt2 = document.createTextNode("This is Paragraph 2: the RIGHT paragraph");
+var text1 = document.createTextNode("This is paragraph 1: Hello from the other side");
+let text2 = document.createTextNode("This is Paragraph 2: the RIGHT paragraph");
 
-let newParagraphs = document.querySelector(".content");
+var newParagraphs = document.querySelector(".content");
 
 //add text node to paragraph elements
-Paragraph1.appendChild(text1);
-paragraph2.appendChild(textt2);
+paragraph1.appendChild(text1);
+paragraph2.appendChild(text2);
+
 
  // add element and content to .content
- newParagraphs.appendChild(Paragraph1);
+ newParagraphs.appendChild(paragraph1);
  newParagraphs.appendChild(paragraph2);
 
 
