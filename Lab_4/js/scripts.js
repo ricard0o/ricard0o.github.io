@@ -29,11 +29,13 @@ let third_char_of_name = document.createTextNode(myFullName.charAt(2).toUpperCas
 paragraph2.append(third_char_of_name);
 
 // 6 Add a new line to your second paragraph
-let new_line = document.createTextNode("\n");
-paragraph2.append(new_line);
+let linebreak = document.createElement("br");
+paragraph2.append(linebreak);
 
 // 7 Return the final three characters of your last name to that new line
-let fina_three_let = document.createTextNode(myFullName)
+let last_three_letters = document.createTextNode(myFullName.substr(-3));
+paragraph2.append(last_three_letters);
+
 // 8 Substring your first and last name into two separate variables
 
 // 9 Add the total length of your first and last names together
