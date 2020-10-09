@@ -37,7 +37,9 @@ let last_three_letters = document.createTextNode(myFullName.substr(-3));
 paragraph2.append(last_three_letters);
 
 // 8 Substring your first and last name into two separate variables
-
+let firstName = myFullName.substring(0,7);
+let lastName = myFullName.substring(8,17);
 // 9 Add the total length of your first and last names together
-
+let full_name_total = firstName.length + lastName.length;
 // 10 Display that total next to your name in your header
+myHeader.append(full_name_total)
