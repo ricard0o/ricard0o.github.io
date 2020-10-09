@@ -18,7 +18,6 @@ let newParagraphs = document.querySelector(".content");
 newParagraphs.append(paragraph1);
 newParagraphs.append(paragraph2);
 
-
 // 3 Into the first paragraph, insert the phrase "my name has " length of your name " characters"
 //      (e.g. my name has 10 characters).
 let length_of_name = document.createTextNode("My name has "+myFullName.length+" characters");
