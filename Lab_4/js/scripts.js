@@ -1,7 +1,7 @@
 let myFullName = "Ricardo Hernandez"; // 10 characters in name...not including space
 // 1 Change the content of the div with class "header" to "[Your name]'s Lab 4"
 let myHeader = document.querySelector(".header");
-myHeader.innerHTML = myFullName + "'s Lab 4";
+myHeader.innerHTML = myFullName + "'s Lab 4. ";
 // 2 Insert two paragraphs into the div with the class "content"
 //  Label each paragraph with a distinct class name
 let paragraph1 = document.createElement("p1"); //create new element
@@ -42,4 +42,4 @@ let lastName = myFullName.substring(8,17);
 // 9 Add the total length of your first and last names together
 let full_name_total = firstName.length + lastName.length;
 // 10 Display that total next to your name in your header
-myHeader.append(full_name_total)
+myHeader.append("The length of my name is: "+ full_name_total)
