@@ -7,12 +7,20 @@
     <link rel="stylesheet" href="css/form_styles.css">
 </head>
 <body>
-    <header>
-        <h1>Yo</h1>
-    </header>
-    <form action="/my-handling-form-page" method="post">
+    <div class = "content">
+        <form action="https://fierce-taiga-97625.herokuapp.com/lab" method="post">
 
-    </form>
+        <header>
+            <h1>HTML Form's Lab</h1>
+        </header>
+        <label for="user_name">Name:</label><br>
+        <input type="text" id="user_name" name="name" maxlength="140" placeholder="Type yourname"><br><br>
+        <label for="user_interests">Interests:</label><br>
+        <textarea id="user_interests" name="interests" rows="5" cols="33">My interests include hiking, biking and playing video games when I have time.
+        </textarea><br>
+        <button class = "button" type="submit">Submit</button>
+        </form>
+    </div>
     
 </body>
 </html>
