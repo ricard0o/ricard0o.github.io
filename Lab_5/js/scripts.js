@@ -271,7 +271,6 @@ function displayCountries() {
 }
 
 
-
 /* This function takes in a parameter and shuffles every element inside the array - returns the
 new order or elements */
 function shuffle_array(parameter) 
