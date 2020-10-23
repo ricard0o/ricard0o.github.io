@@ -1,7 +1,19 @@
-body {background-color: rgb(250, 235, 215);}
-.button {background-color: 	rgb(247, 127, 80);}
+/* Lab 6*/
+
+body {
+    background-color: rgb(250, 235, 215);
+}
+
 .content{
     display: flex;
     justify-content: center;
+}
 
+.button{
+    background-color:rgb(247, 127, 80);
+}
+
+
+h1{
+    font-weight: bold;
 }
