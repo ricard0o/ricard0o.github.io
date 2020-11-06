@@ -26,7 +26,7 @@ function getBusRoute() {
   } else {
     main.innerHTML = "No value provided";
     sessionStorage.setItem("title", "Nothing Set");
-    sessionStorage.setItem("atMax", "Nothing set"); 
+    sessionStorage.setItem("latMax", "Nothing set"); 
     sessionStorage.setItem("latMin", "Nothing set");
     sessionStorage.setItem("lonMax", "Nothing set");
     sessionStorage.setItem("lonMin", "Nothing set");
