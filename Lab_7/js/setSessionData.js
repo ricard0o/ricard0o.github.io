@@ -18,8 +18,6 @@ function getBusRoute() {
         sessionStorage.setItem("latMin", route.lat_min);
         sessionStorage.setItem("lonMax", route.lon_max);
         sessionStorage.setItem("lonMin", route.lon_min);
-  
-
       })
       .catch((err) => {
         console.log(err);
@@ -27,5 +25,10 @@ function getBusRoute() {
       });
   } else {
     main.innerHTML = "No value provided";
+    sessionStorage.setItem("title", "Nothing Set");
+    sessionStorage.setItem("atMax", "Nothing set"); 
+    sessionStorage.setItem("latMin", "Nothing set");
+    sessionStorage.setItem("lonMax", "Nothing set");
+    sessionStorage.setItem("lonMin", "Nothing set");
   }
 }
