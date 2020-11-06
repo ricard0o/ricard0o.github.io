@@ -12,6 +12,15 @@ function getBusRoute() {
       })
       .then((route) => {
         // YOUR CODE HERE
+        let title   = route.title;
+        let lat_max = route.lat_max;
+        let lat_min = route.lat_min;
+        let lon_max = route.lon_max;
+        let lon_min = route.lon_min;
+
+
+
+
       })
       .catch((err) => {
         console.log(err);
