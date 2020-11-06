@@ -13,6 +13,8 @@ function getBusRoute() {
       })
       .then((route) => {
         // YOUR CODE HERE
+        sessionStorage.setItem("route_item", JSON.stringify(route));
+
         let title   = route.title;
         let lat_max = route.lat_max;
         let lat_min = route.lat_min;
