@@ -1,0 +1,16 @@
+ 
+{
+    "name": "Hernandez_Lab8",
+    "version": "1.0.0",
+    "description": "Lab 8 for INST377 class",
+    "author": "Ricardo Hernandez",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    }
+  }
