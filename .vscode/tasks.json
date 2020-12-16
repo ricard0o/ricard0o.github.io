@@ -1,0 +1,14 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start-watch",
+			"path": "assignment_2/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: start-watch - assignment_2",
+			"detail": "nodemon src/server.js"
+		}
+	]
+}
