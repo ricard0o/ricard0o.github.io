@@ -303,7 +303,7 @@ function submitNewPerson() {
 
 function submitNewGroup() {
 
-  console.log("Called submitNewGroup");
+ 
   let name = document.getElementById("addGroupName").value;
 
   console.log("Name:" + name);
