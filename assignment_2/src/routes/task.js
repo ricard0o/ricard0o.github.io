@@ -142,7 +142,10 @@ router.get('/allTasks', (req, res) => {
         res.status(400).json({ "error": err.message });
         return;
       }
- 
+      res.json({
+        "message": "success",
+        "data": row
+      })
     });
   })
 
