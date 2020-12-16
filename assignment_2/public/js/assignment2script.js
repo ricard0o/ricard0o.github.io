@@ -361,7 +361,6 @@ fetch(URL)
 
 function findMatches(wordToMatch, searchTaskList) {
   return searchTaskList.filter(place => {
-    // here we need to figure out if the task matches what was searched
     const regex = new RegExp(wordToMatch, 'gi');
     return place.taskName.match(regex)
   });
