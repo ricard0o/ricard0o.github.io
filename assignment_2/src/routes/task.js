@@ -64,21 +64,7 @@ router.get('/task', (req, res) => {
       });
 })
 
-//GET tasks
-router.get('/allTasks', (req, res) => {
 
-    let sql = "Select taskName from tasks.";
-    db.all(sql, (err, row) => {
-      if (err) {
-        res.status(400).json({ "error": err.message });
-        return;
-      }
-      res.json({
-        "message": "success",
-        "data": row
-      })
-    });
-  })
 
 //Update
 /*
@@ -146,6 +132,7 @@ router.delete('/task', (req, res) => {
             res.json({"message":"deleted " , changes: this.changes})
     });
 })
+
 
 
 module.exports = router
