@@ -64,6 +64,22 @@ router.get('/task', (req, res) => {
       });
 })
 
+//GET all tasks
+router.get('/allTasks', (req, res) => {
+
+    console.log("Get all tasks");
+    let sql = "select taskName from tasks";
+    db.all(sql, (err, row) => {
+      if (err) {
+        res.status(400).json({ "error": err.message });
+        return;
+      }
+      res.json({
+        "message": "success",
+        "data": row
+      })
+    });
+  })
 
 //Update
 /*

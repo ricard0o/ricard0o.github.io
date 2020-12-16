@@ -342,8 +342,52 @@ function submitNewGroup() {
       console.log(err);
       document.getElementById("postNewGroupContent").innerHTML = "Invalid group : " + data.name;
     });
-
 }
+
+
+/*
+ ------ SEARCH TASKS ------
+*/
+
+
+
+const searchTaskList = [];
+
+let URL = "http://localhost:4000/allTasks";
+
+fetch(URL)
+.then(blob => blob.json())
+.then(data => searchTaskList.push(...data.data));
+
+function findMatches(wordToMatch, searchTaskList) {
+  return searchTaskList.filter(place => {
+    // here we need to figure out if the task matches what was searched
+    const regex = new RegExp(wordToMatch, 'gi');
+    return place.taskName.match(regex)
+  });
+}
+
+function displayMatches() {
+  const matchArray = findMatches(this.value, searchTaskList);
+  const html = matchArray.map(place => {
+    const regex = new RegExp(this.value, 'gi');
+    const tasksName = place.taskName.replace(regex, `<span class="hl">${this.value}</span>`);
+    return `
+      <li>
+        <span class="name">${tasksName}</span>
+      </li>
+    `;
+  }).join('');
+  suggestions.innerHTML = html;
+}
+
+const searchInput = document.getElementById('searchTasks');
+const suggestions = document.getElementById('searchTasksContent');
+
+searchInput.addEventListener('change', displayMatches);
+searchInput.addEventListener('keyup', displayMatches);
+
+
 
 /*
    ------------   Code for onload of page ------------
