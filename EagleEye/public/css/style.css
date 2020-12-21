@@ -1,0 +1,118 @@
+body {
+  font-size: 20px;
+  background-color: #ffbb00; 
+  margin: 1;
+
+  animation-name: home;
+  animation-duration: 4s;
+}
+
+@keyframes home {
+  25%  {background-color: #7c0a00b2;}
+  75% {background-color: #ffbb00;}
+}
+
+
+
+header{
+  background-color: #7c0a00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+}
+
+.content{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  margin-top: 10px;
+  
+
+}
+
+.about{  
+  padding: 60px;
+  text-align: center;
+}
+
+.documentation{  
+  padding: 10px;
+  text-align: center;
+}
+
+label{
+  margin-right: 2px;
+  margin-left: 30px;
+}
+.button{
+  display:flex;
+  margin-top: 10px;
+
+  justify-content: center;
+  align-content: center;
+
+  
+}
+
+.image{
+  display:flex;
+  justify-content: center;
+  
+ 
+  position: relative;
+  animation-name: image;
+  animation-duration: 4s;
+
+}
+
+@keyframes image {
+  0%   {left:0px; top:0px;}
+  25%  {left:150px; top:0px;}
+  50%  {left:150px; top:150px;}
+  75%  {left:0px; top:150px;}
+  100% {left:0px; top:0px;}
+
+}
+
+header h1{
+  color: #ffc400;
+}
+
+h2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+ /* Animation on page buttons */
+nav a{
+  font-size: 20px;
+  color : rgb(217, 163, 0);
+}
+
+nav li {
+  display: inline-block;
+  position: relative;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+nav a::after {
+  content: '';
+  display: block;
+  height: 4px;
+  background-color:rgb(255, 255, 255);
+  position: absolute;
+  top: 10;
+  width: 0%;
+  transition: ease-in-out 300ms;
+}
+
+nav a:hover::after {
+  width: 100%;
+}
+
+
+
