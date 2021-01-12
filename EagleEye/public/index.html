@@ -51,7 +51,7 @@
 
       <label for="crime">Crime Type:</label>
       <select id="crime" onkeyup="this.value = this.value.toUpperCase();">
-        <option value = ""></option>
+        <option value = "" selected>Choose a type of Crime</option>
         <option value = "ACCIDENT">ACCIDENT</option>
         <option value = "ACCIDENT WITH IMPOUND">ACCIDENT WITH IMPOUND</option>
         <option value = "ASSAULT">ASSAULT</option>
@@ -76,10 +76,10 @@
         <option value = "VANDALISM">VANDALISM</option>
       </select>
       <br><label for="Street Number">Street Number:</label><br>
-      <input type="text" id="streetNumber" onkeyup="this.value = this.value.toUpperCase();">
+      <input type="text" id="streetNumber" placeholder= "Type Street Number" onkeyup="this.value = this.value.toUpperCase();">
 
       <label for="streetAddress">Street Address:</label>
-      <input type="text" id="streetAddress" onkeyup="this.value = this.value.toUpperCase();">
+      <input type="text" id="streetAddress" placeholder="Type Street Address" onkeyup="this.value = this.value.toUpperCase();">
 
 
     </div>
