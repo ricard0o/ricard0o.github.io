@@ -256,7 +256,7 @@ const btn = document.querySelector("button"); //reference button from index file
 btn.addEventListener("click",displayCountries); //adds an event listener to button
 
 function displayCountries() {
-  ordered_list.innerHTML = " "; //replaces 25 new elements instead of adding 25 more to list
+  e //replaces 25 new elements instead of adding 25 more to list
   shuffle_array(list_of_countries); //runs all contries through shuffle array function
   const shuffled_array = list_of_countries.slice(0, 25); // set variable with 25 of country names
   let sorted_array = shuffled_array.sort();

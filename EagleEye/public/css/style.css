@@ -1,25 +1,20 @@
 body {
   font-size: 20px;
-  background-color: #ffbb00; 
-  margin: 1;
-
-  animation-name: home;
-  animation-duration: 4s;
+  background-color: #13222E; 
+  color: #EEFBFB;
 }
-
-@keyframes home {
-  25%  {background-color: #7c0a00b2;}
-  75% {background-color: #ffbb00;}
-}
-
-
 
 header{
-  background-color: #7c0a00;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
-  border-style: solid;
+  margin-bottom: 10px;
+}
+
+header h1{
+  border-style: groove;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
 }
 
 .content{
@@ -27,8 +22,15 @@ header{
   flex-direction:row;
   justify-content: center;
   margin-top: 10px;
-  
+}
 
+.container{
+  background-color: #034874;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  margin-top: 3px;
+  padding: 10px;
 }
 
 .about{  
@@ -36,57 +38,43 @@ header{
   text-align: center;
 }
 
-.documentation{  
-  padding: 10px;
-  text-align: center;
+.list{
+  display: flex;
+  flex-direction: row;
+ 
 }
 
 label{
   margin-right: 2px;
   margin-left: 30px;
 }
+
+
+
 .button{
   display:flex;
   margin-top: 10px;
-
   justify-content: center;
   align-content: center;
-
-  
 }
 
-.image{
-  display:flex;
-  justify-content: center;
-  
- 
-  position: relative;
-  animation-name: image;
-  animation-duration: 4s;
 
-}
 
-@keyframes image {
-  0%   {left:0px; top:0px;}
-  25%  {left:150px; top:0px;}
-  50%  {left:150px; top:150px;}
-  75%  {left:0px; top:150px;}
-  100% {left:0px; top:0px;}
 
-}
 
 header h1{
   color: #ffc400;
 }
 
-h2{
+h3{
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: #ffc400;
 }
 
  /* Animation on page buttons */
-nav a{
+ nav a{
   font-size: 20px;
   color : rgb(217, 163, 0);
 }
@@ -114,5 +102,20 @@ nav a:hover::after {
   width: 100%;
 }
 
+#mapid { 
+  height: 300px; 
+  
+  margin: 20px;
+  
+
+  display: flex;
+  flex-direction: row;
+  
+  padding: 80px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.69);
+ 
+
+  
+  }
 
 

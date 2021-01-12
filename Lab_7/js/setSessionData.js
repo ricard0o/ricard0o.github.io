@@ -5,6 +5,7 @@ function getBusRoute() {
 
   if ((typeof busRoute !== "undefined") & (busRoute !== "")) {
     let busRouteURL = "https://api.umd.io/v0/bus/routes/" + busRoute; // Your code here
+    
     console.log(busRouteURL);
 
     fetch(busRouteURL)

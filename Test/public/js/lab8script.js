@@ -29,10 +29,12 @@ async function getData() {
                 let title = p.title;
                 let ups = p.ups;
 
-
+                let message = "<b>Subreddit </b>: " + subreddit + 
+                " <b>Author</b>:" + author + " <b>Title</b>:" + 
+                title + " <b>Up votes</b>: " + ups; 
 
                 let select = document.getElementById("redditList");
-                select.innerHTML += " "; 
+                select.innerHTML += "<li>" + message + "</li>"; 
                 /*
                     Get a random number within the size of the list
                     Get subreddit, author, title, and ups from record
