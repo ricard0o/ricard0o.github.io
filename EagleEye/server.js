@@ -32,6 +32,6 @@ router.get('/', function(req, res)  {
 })
 
 app.use('/', router);
-app.listen(process.env.port || 4000);
+app.listen(process.env.PORT || 3000);
 
 /*app.listen(port, () => console.info('App listening on port ${port}'))*/

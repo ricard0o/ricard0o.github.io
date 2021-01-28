@@ -8,11 +8,11 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-watch": "nodemon server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZacFoss/377Project.git"
+    "url": "git+https://github.com/ricard0o/eagleeyez"
   },
   "author": "",
   "license": "ISC",
